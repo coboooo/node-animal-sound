@@ -13,7 +13,7 @@ app.get('/sound/:name', (req, res) => {
     const { name } = req.params
 
     if(name == "dog") {
-        res.json({'sound': '멍멍'})
+        res.json({'sound': '멍1멍'})
     } else if(name == "cat") {
         res.json({'sound': '야옹'})
     } else if(name == "pig") {
